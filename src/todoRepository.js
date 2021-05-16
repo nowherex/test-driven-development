@@ -7,11 +7,11 @@ class TodoRepository {
     }
 
     list() {
-
         return this.schedule.find()
     }
 
     create(data) {
+
         return this.schedule.insertOne(data)
     }
 }
